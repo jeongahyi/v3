@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 255; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -293,11 +293,10 @@ img{
 
 .home__blob{
     width: 200px;
-    fill: var(--first-color);
 }
 
 .home__blob-img{
-    width: 170px;
+    width: 200px;
 }
 
 .home__data{
@@ -476,14 +475,23 @@ img{
     background-color: var(--first-color);
 }
 
-.skills__1__year{
-    width: 45%;
+.skills__16{
+    width: 16.5%;
 }
-.skills__2__years{
-    width: 70%;
+.skills__25{
+    width: 25%;
 }
-.skills__3__years{
-    width: 95%;
+.skills__33{
+    width: 33.3%;
+}
+.skills__50{
+    width: 50%;
+}
+.skills__66{
+    width: 66.6%;
+}
+.skills__100{
+    width: 100%;
 }
 
 .skills__close .skills__list{
@@ -647,6 +655,10 @@ img{
     border: none;
     outline: none;
     padding: .25rem .5rem .5rem 0;
+}
+
+.contact__description{
+    margin: var(--mb-1) 0;
 }
 
 /*==================== FOOTER ====================*/
@@ -921,7 +933,7 @@ img{
     .contact__form{
         width: 460px;
     }
-    .contact__inputs{
+    /* .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 }
